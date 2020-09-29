@@ -5,7 +5,7 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="tkdata",
-    version="0.0.1",
+    version="0.0.3",
     author="Andrés Felipe Sierra Parra",
     author_email="cepfelo@gmail.com",
     description="Create tkinter forms easily",
@@ -18,5 +18,5 @@ setuptools.setup(
         "License :: OSI Approved :: MIT License",
         "Operating System :: OS Independent",
     ],
-    python_requires='>=3.6',
+    python_requires='>=3.4',
 )
