@@ -83,6 +83,9 @@ class TkData(tk.Tk):
                     )
                 )
 
+                if value.get('password', False):
+                    sch[key].config(show="*")
+
                 sch[key].pack(fill='x', padx=10)
 
                 if isinstance(default, str):
